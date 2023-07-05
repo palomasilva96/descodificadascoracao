@@ -1,0 +1,33 @@
+body {
+    background: rgb(201, 168, 168);
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+h1 {
+    color: #9400d3;
+    font-size: 60px;
+}
+
+h2 {
+    color: #9400d3;
+    font-size: 30px;
+}
+
+img {
+    width: 900px;
+  -webkit-animation: pulsa 1s linear 0s infinite;
+    
+}
+
+@keyframes pulsa { 
+    0% {
+        transform: scale(0.9)
+        rotate(0deg);
+    }
+}
